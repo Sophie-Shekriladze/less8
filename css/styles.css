@@ -1,0 +1,49 @@
+.mtavari{
+ 
+}
+.backg{
+    width: 1300px;
+    height: auto;
+    position: relative;
+}
+
+.img1{
+    width: 170px;
+    height: auto;
+    position: absolute;
+   	left: 50%;
+	
+	
+}
+
+.img2{
+    width: 170px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 600px;
+}
+
+.img3{
+    width: 170px;
+    height: auto;
+    position: absolute;
+}
+
+.img4{
+    width: 170px;
+    height: auto;
+    position: absolute;
+}
+
+.img5{
+    width: 170px;
+    height: auto;
+    position: absolute;
+}
+
+.img6{
+    width: 170px;
+    height: auto;
+    position: absolute;
+}
