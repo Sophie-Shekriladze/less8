@@ -109,10 +109,97 @@
     animation-name: ariel;
     position: absolute;    
     animation: ariel 5s infinite;
+    animation-direction: alternate;
 
 }
 @keyframes ariel{    
     from {top: 0px;}
     to {top: 250px;}  
-    10% {transform: rotate(30deg);  
+    10% {transform: rotate(30deg);} 
+}
+
+.Water-bubbles{
+    position: absolute; 
+    width: 40px;
+    height: auto;
+    left: 30%;
+    bottom: 20%;
+    animation-name: Water-bubbles;
+    animation: Water-bubbles 5s infinite;
+}
+
+@keyframes Water-bubbles{    
+    from {bottom: 0px;}
+    to {bottom: 800px;}  
+    10% {transform: rotate(30deg); } 
+}
+
+.Water-bubbles-2{
+    position: absolute; 
+    width: 30px;
+    height: auto;
+    left: 10%;
+    bottom: 30%;
+    animation-name: Water-bubbles-2;
+    animation: Water-bubbles-2 5s infinite;
+    animation-delay: 0.2s;
+}
+
+@keyframes Water-bubbles-2{    
+    from {bottom: 100px;}
+    to {bottom: 700px;}  
+    10% {transform: rotate(30deg); } 
+}
+
+.Water-bubbles-3{
+    position: absolute; 
+    width: 30px;
+    height: auto;
+    left: 20%;
+    bottom: 30%;
+    animation-name: Water-bubbles-3;
+    animation: Water-bubbles-3 5s infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes Water-bubbles-3{    
+    from {bottom: 300px;}
+    to {bottom: 700px;}  
+    10% {transform: rotate(30deg); } 
+}
+
+.Water-bubbles-4{
+    position: absolute; 
+    width: 30px;
+    height: auto;
+    left: 5%;
+    bottom: 30%;
+    animation-name: Water-bubbles-4;
+    animation: Water-bubbles-4 5s infinite;
+    animation-delay: 5s;
+}
+
+@keyframes Water-bubbles-4{    
+    from {bottom: 300px;}
+    to {bottom: 700px;}  
+    10% {transform: rotate(30deg); } 
+}
+
+.underwater1{
+    position: absolute; 
+    width: 200px;
+    height: auto;
+    right: 10%;
+    bottom: 0%;
+    animation-name: uunderwater1;
+    animation: underwater1 15s infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+   
+}
+
+@keyframes underwater1{    
+    from {bottom: 1px;}
+    to {bottom: 500px;}  
+    10% {transform: rotate(10deg); } 
 }
