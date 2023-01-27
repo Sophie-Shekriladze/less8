@@ -6,7 +6,7 @@
 .img1{
     width: 170px;
     height: 150px;
-    left: 40%;
+    left: 50%;
     top: 100px;
     animation-name: fish-1;
     position: absolute;    
@@ -26,6 +26,7 @@
     top: 600px;
     animation-name: fish-2;
     animation: fish-1 14s infinite;
+    z-index: 30;
 }
 
 @keyframes fish-2{    
@@ -33,23 +34,6 @@
     to {left: 500px;}    
 }
 
-.img3{
-    width: 170px;
-    height: auto;
-    left: 85%;
-    top: 250px;
-    position: absolute;
-    animation-name: fish-3;
-    animation: fish-1 13s infinite;  
-    
-    
-}
-
-@keyframes fish-3{    
-    from {right: 0px;}
-    to {left: 500px;}    
-    
-}
 
 .img4{
     width: 170px;
@@ -89,6 +73,7 @@
     position: absolute;
     animation-name: fish-6;   
     animation: fish-1 12s infinite;
+    z-index: 20;
 }
 
 @keyframes fish-6{    
@@ -146,7 +131,7 @@
     10% {transform: rotate(30deg); } 
 }
 
-.Water-bubbles-3{
+.Water-bubbles-3{ 
     position: absolute; 
     width: 30px;
     height: auto;
@@ -197,4 +182,38 @@
     from {bottom: 1px;}
     to {bottom: 500px;}  
     10% {transform: rotate(10deg); } 
+}
+
+.Water-bubbles-5{
+    position: absolute; 
+    width: 30px;
+    height: auto;
+    left: 80%;
+    bottom: 30%;
+    animation-name: Water-bubbles-5;
+    animation: Water-bubbles-5 5s infinite;
+    z-index: 40;
+}
+
+@keyframes Water-bubbles-5{    
+    from {bottom: 0px;}
+    to {bottom: 700px;}  
+    
+}
+
+.Water-bubbles-6{
+    position: absolute; 
+    width: 30px;
+    height: auto;
+    left: 70%;
+    bottom: 30%;
+    animation-name: Water-bubbles-6;
+    animation: Water-bubbles-6 8s infinite;
+     z-index: 40;
+}
+
+@keyframes Water-bubbles-6{    
+    from {bottom: 0px;}
+    to {bottom: 800px;}  
+    
 }
